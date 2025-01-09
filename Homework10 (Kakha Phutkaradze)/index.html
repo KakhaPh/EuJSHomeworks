@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework10 (Kakha Phutkaradze)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<h2 style="text-align:center">სლაიდერი</h2>
+
+<div class="row">
+    <div class="column">
+        <img class="demo" src="pctrs/1.jpg" onmouseover="currentSlide(1)">
+    </div>
+
+    <div class="column">
+        <img class="demo" src="pctrs/2.jpg" onmouseover="currentSlide(2)">
+    </div>
+
+    <div class="column">
+        <img class="demo" src="pctrs/3.png" onmouseover="currentSlide(3)">
+    </div>
+
+    <div class="column">
+        <img class="demo" src="pctrs/4.png" onmouseover="currentSlide(4)">
+    </div>
+</div>
+
+<div class="slider_cont">
+    <div class="slider_square">
+        <div class="mySlides">
+            <img src="pctrs/1.jpg" class="slider">
+        </div>
+        
+        <div class="mySlides">
+            <img src="pctrs/2.jpg" class="slider">
+        </div>
+        
+        <div class="mySlides">
+            <img src="pctrs/3.png" class="slider">
+        </div>
+            
+        <div class="mySlides">
+            <img src="pctrs/4.png" class="slider">
+        </div>
+    </div>
+</div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <script src="script.js"></script>
+</body>
+</html>

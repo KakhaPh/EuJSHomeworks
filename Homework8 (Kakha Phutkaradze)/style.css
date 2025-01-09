@@ -1,0 +1,36 @@
+.stadium {
+    border: solid lightblue;
+    width: 70%;
+    height: 200px;
+    margin: 10px auto;
+}
+
+.stadium2 {
+    border: solid red;
+    width: 70%;
+    height: 200px;
+    margin: 10px auto;
+}
+
+.buttons {
+    border: solid lightblue;
+    width: 30%;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#movingbox{
+    border: solid darkblue;	
+    width: 10%;
+    height: 40px;
+    background-color: darkblue;
+}
+
+#movingbox2 {
+    border: solid purple;
+    width: 10%;
+    height: 40px;
+    background-color: purple !important;
+}

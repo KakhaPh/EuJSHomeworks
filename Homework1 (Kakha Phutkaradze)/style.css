@@ -1,0 +1,16 @@
+*{
+
+    box-sizing: border-box;
+}
+
+.k1{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+table, td, tr{
+    border: 1px solid black;
+    min-height: 30px;
+    border-collapse: collapse;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 5 (Kakha Phutkaradze)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- პირველი დავალება -->
+    <div class="work1">
+        <div id='days' class="div">
+            <p class="week-days">კვირის დღეები: <div class="today" id="today"></div></p>
+        </div>
+        <div class="work1_buttons">
+            <button class="class-1" onclick="work1_1()">1</button>
+            <button class="class-2" onclick="work1_2()">2</button>
+            <button class="class-3" onclick="work1_3()">3</button>
+            <button class="class-4" onclick="work1_4()">4</button>
+            <button class="class-5" onclick="work1_5()">5</button>
+            <button class="class-6" onclick="work1_6()">6</button>
+            <button class="class-7" onclick="work1_7()">7</button>
+        </div>
+    </div>
+    <!-- მეორე დავალება -->
+    <table>
+        <tr>
+            <td colspan="3"><input type="text" id="result"/></td>
+            <td><input type="button" value="C" onclick="Clr()"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="view('1')"/></td>
+            <td><input type="button" value="2" onclick="view('2')"/></td>
+            <td><input type="button" value="3" onclick="view('3')"/></td>
+            <td><input type="button" value="/" onclick="view('/')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="view('4')"/></td>
+            <td><input type="button" value="5" onclick="view('5')"/></td>
+            <td><input type="button" value="6" onclick="view('6')"/></td>
+            <td><input type="button" value="-" onclick="view('-')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="view('7')"/></td>
+            <td><input type="button" value="8" onclick="view('8')"/></td>
+            <td><input type="button" value="9" onclick="view('9')"/></td>
+            <td><input type="button" value="-" onclick="view('+')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." onclick="view('.')"/></td>
+            <td><input type="button" value="0" onclick="view('0')"/></td>
+            <td><input type="button" value="=" onclick="compute('=')"/></td>
+            <td><input type="button" value="*" onclick="view('*')"/></td>
+        </tr>
+    </table>    <br><br><br>
+
+    <!-- მეხუთე დავალება -->
+    <div class="work5">
+        <div id="numbers"></div>
+        <button class="number0to30_btn" onclick="work5()">Click to find number between 0 to 30</button>
+    </div>
+        
+    <!-- მეექვსე დავალება -->
+
+    <div class="min-to-max">
+        <input id="input1" type="text">
+        <input id="input2" type="text">
+        <div  id="rand_answer"></div>
+        <button onclick="work6()">Click to find number between min to max</button>
+    </div>
+
+    <!-- მეშვიდე დავალება -->
+    
+    <div class="div-for-table">
+        <div class="container">
+            <input id ='column'type="text" placeholder="column">
+            <input id="row" placeholder="row" type="text">
+            <input id='images' placeholder="Pictures" type="text">
+            <button class="btn" onclick="work7()">Click to make table</button>
+        </div>
+     <table id='table'></table>
+ </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

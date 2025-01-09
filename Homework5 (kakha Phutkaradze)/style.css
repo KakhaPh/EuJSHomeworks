@@ -1,0 +1,82 @@
+#days{
+    display: flex;
+    line-height: 0px;
+    margin: 30px;
+}
+.week-days {
+    font-weight: bold;
+}
+
+.today {
+    border: solid 1px lightgray;
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    line-height: 25px;
+}
+
+.work1_buttons {
+    display: flex;
+    margin: 10px;
+}
+
+[class*="class-"] {
+    text-align: center;
+    width: 50px;
+    margin: 10px;
+}
+/* მეორე დავალება */
+input[type="button"]{
+    background-color: lightgray;
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+input[type="text"]{
+    background-color: white;
+    width: 96%;
+    border: solid 1px;
+    height: 30px;
+}
+.work5{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+#numbers{
+    border: solid;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.min-to-max{
+    display: flex;
+    margin-top: 10px;
+    width: 700px;
+    justify-content: space-between;
+}
+#input1,#input2{
+    max-width: 120px;
+}
+#rand_answer{
+    border: solid;
+    width: 120px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+}
+#column, #row, #images{
+    width: 150px;
+    margin-top: 50px;
+}
+
+.btn{
+    padding: 8px;
+}

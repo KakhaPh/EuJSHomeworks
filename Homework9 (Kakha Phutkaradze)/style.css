@@ -1,0 +1,14 @@
+#square {
+    border: solid 1px lightgreen;
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}

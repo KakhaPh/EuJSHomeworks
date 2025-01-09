@@ -1,0 +1,24 @@
+.container {
+    width: 50%;
+    margin: auto;
+    border: solid blueviolet;
+    padding: 10px;
+}
+
+.square {
+    width: 50%;
+    height: 400px;
+    background-color: lightskyblue;
+    margin: 10px auto;
+    border: solid blueviolet;
+    position: relative;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 1px red;
+    box-sizing: border-box;
+    position: absolute;
+}
